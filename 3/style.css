@@ -50,3 +50,7 @@ button {
     line-height: 60px;
     /* border-radius: 20px; */
 }
+
+button {
+    cursor: pointer;
+}
