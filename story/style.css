@@ -53,7 +53,7 @@ button {
   display: none;
 }
 
-.info-g {
+.sound {
   display: block;
   text-decoration: none;
   text-align: center;
@@ -68,37 +68,3 @@ button {
   /* border-radius: 20px; */
   cursor: pointer;
 }
-
-.info {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background-color: #ffe2b0;
-  color: #ff8000;
-  padding: 10px;
-  border-radius: 20px;
-  opacity: 0;
-  transition: opacity 0.5s;
-  width: 380px;
-  height: 200px;
-  font-size: 150%;
-  font-family: 'Zen Kurenaido', sans-serif;
-  margin-bottom: 0;
-  line-height: 1;
-}
-
-.info:hover {
-  opacity: 1;
-}
-
-.info p {
-  margin-bottom: 0;
-  line-height: 1;
-}
-
-li {
-  text-align: left;
-  margin-bottom: 0;
-  line-height: 1;
-}
-

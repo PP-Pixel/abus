@@ -34,7 +34,7 @@
 </head>
 
 <body onselectstart="return false;" onmousedown="return false;">
-    <div class="body">
+    <div class="body" id="b-audio">
         <div class="content">
             <div id="container">
                 <div id="text">
@@ -47,17 +47,13 @@
             </div>
         </div>
     </div>
-    <div class="info-g">
-        <span class="material-symbols-outlined">help</span>
-        <div class="info">
-            <p>設定</p>
-            <ul>
-                <li>案内役はジョーンズの助手</li>
-                <li>お客さまは駆け出しの冒険者</li>
-                <li>無線でジョーンズを連絡を取り合いながら遺跡を探索する</li>
-            </ul>
-        </div>
-    </div>
+    <div class="sound" id="info-audio">
+        <span class="material-symbols-outlined">
+            volume_up
+        </span>
+        <!-- <div class="sound-audio" id="info-audio">
+            <p onselectstart="return false;" onmousedown="return false;"></p>
+        </div> -->
     </div>
     <script src="script.js"></script>
 </body>
