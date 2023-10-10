@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <link rel="canonical" href="https://pp-pixel.github.io/joho1-bunka">
+    <meta property="og:url" content="https://pp-pixel.github.io/joho1-bunka" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Joho1-bunka" />
+    <meta property="og:image" content="https://pp-pixel.github.io/joho1-bunka/joho1-ogp.webp" />
+    <meta name=twitter:card” content="summary" />
+    <meta property="og:description" content="突如、長工に現れた謎の遺跡「アバス遺跡」この遺跡には秘宝が眠っているという噂があるようだが、、、ジョーンズと進む謎解きアトラクション" />
+    <meta property="og:site_name" content="© 2023 PP." />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <title>③(2)</title>
+    <!-- ServiceWorker -->
+	<link rel="manifest" href="https://pp-pixel.github.io/joho1-bunka/manifest.json">
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker.register("https://pp-pixel.github.io/joho1-bunka/sw.js").then(
+					function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+					function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+			});
+		}
+	</script>
+</head>
+
+<body>
+    <h1 onselectstart="return false;" onmousedown="return false;">もんだい</h1>
+    <p id="question" onselectstart="return false;" onmousedown="return false;">せいかい&nbsp;は...?</p>
+    <div class="kaitou">
+        <input type="text" id="answer"><a>&nbsp;</a>
+        <button id="submit">かいとう</button><br>
+    </div>
+    <img src="3.png" alt="問題3(仮&nbsp;答え:1)" onselectstart="return false;" onmousedown="return false;"/>
+    <div class="top">
+        <a href="https://pp-pixel.github.io/joho1-bunka/" onselectstart="return false;" onmousedown="return false;"/>
+            <span class="material-symbols-outlined">
+                home
+            </span>
+        </a>
+    </div>
+    <script src="3.js"></script>
+</body>
+
+</html>

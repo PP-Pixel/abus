@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <!-- <meta http-equiv="Refresh" content="10;URL=https://pp-pixel.github.io/joho1-bunka/1/"> -->
+    <link rel="icon" type="image/png" href="https://pp-pixel.github.io/joho1-bunka/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://pp-pixel.github.io/joho1-bunka/favicon.png">
+    <link rel="canonical" href="https://pp-pixel.github.io/joho1-bunka">
+    <meta property="og:url" content="https://pp-pixel.github.io/joho1-bunka" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Joho1-bunka" />
+    <meta property="og:image" content="https://pp-pixel.github.io/joho1-bunka/joho1-ogp.webp" />
+    <meta name=twitter:card” content="summary" />
+    <meta property="og:description" content="スタート" />
+    <meta property="og:site_name" content="© 2023 PP." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <!-- ServiceWorker -->
+    <link rel="manifest" href="https://pp-pixel.github.io/joho1-bunka/manifest.json">
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker.register("https://pp-pixel.github.io/joho1-bunka/sw.js").then(
+                    function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+                    function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+            });
+        }
+    </script>
+</head>
+
+<body onselectstart="return false;" onmousedown="return false;">
+    <div class="body">
+        <div class="content">
+            <div id="container">
+                <div id="text">
+                    突如、長工に現れた謎の遺跡<br>「アバス遺跡」
+                    <button id="more"><span class="material-symbols-outlined">expand_circle_down</span></button>
+                </div>
+                <div id="more-text">
+                    この遺跡には秘宝が眠っているという噂があるようだが、、、
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-g">
+        <span class="material-symbols-outlined">help</span>
+        <div class="info">
+            <p>設定</p>
+            <ul>
+                <li>案内役はジョーンズの助手</li>
+                <li>お客さまは駆け出しの冒険者</li>
+                <li>無線でジョーンズを連絡を取り合いながら遺跡を探索する</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
