@@ -82,3 +82,16 @@ a:hover {
 .info p {
     margin-top: -10px;
 }
+
+.sound a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    color: #ffad5a;
+    width: 60px;
+    line-height: 60px;
+  }
