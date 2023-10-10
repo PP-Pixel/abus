@@ -28,7 +28,7 @@
             border-radius: 20px;
         } */
 
-a {
+.content a {
     font-family: 'Aoboshi One', serif;
     font-size: 160%;
     color: #ffffff;
@@ -40,7 +40,7 @@ a {
     box-shadow: 0 2px 4px #00000066;
 }
 
-a:hover {
+.content a:hover {
     /* box-shadow: 0 0px 10px #00000066; */
     background-color: #ffa041;
 }
@@ -83,7 +83,7 @@ a:hover {
     margin-top: -10px;
 }
 
-.sound a {
+.sound-page {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -92,6 +92,14 @@ a:hover {
     left: 10px;
     bottom: 10px;
     color: #ffad5a;
+    /* background: #ff7700; */
     width: 60px;
     line-height: 60px;
-  }
+    /* border-radius: 20px; */
+    cursor: pointer;
+}
+
+.sound-page a:visited {
+    color: #ffad5a;
+    text-decoration: underline;
+}
