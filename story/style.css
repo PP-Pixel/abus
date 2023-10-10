@@ -53,6 +53,21 @@ button {
   display: none;
 }
 
+.top a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  z-index: 99;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  color: #ffffff;
+  /* background: #ff7700; */
+  width: 60px;
+  line-height: 60px;
+  /* border-radius: 20px; */
+}
+
 .sound {
   display: block;
   text-decoration: none;
