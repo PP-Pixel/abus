@@ -15,7 +15,7 @@
     <meta property="og:description" content="突如、長工に現れた謎の遺跡「アバス遺跡」この遺跡には秘宝が眠っているという噂があるようだが、、、ジョーンズと進む謎解きアトラクション" />
     <meta property="og:site_name" content="© 2023 PP." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finish</title>
+    <title>S|Finish</title>
     <!-- ServiceWorker -->
     <link rel="manifest" href="https://pp-pixel.github.io/abus/manifest.json">
     <script>
@@ -32,21 +32,23 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body onselectstart="return false;" onmousedown="return false;">
-    <div class="body">
+<body>
+    <div class="body" id="b-audio">
         <div class="content">
-            <p>COMPLETE</p>
+            <img src="kaizoku_takara.webp" alt="海賊の宝" onselectstart="return false;" onmousedown="return false;" />
         </div>
-        <div class="top">
-            <a href="https://pp-pixel.github.io/abus/" onselectstart="return false;" onmousedown="return false;">
-                <span class="material-symbols-outlined">home</span>
-            </a>
-        </div>
-        <div class="sound" id="info-audio">
+    </div>
+    <div class="top">
+        <a href="https://pp-pixel.github.io/abus/" onselectstart="return false;" onmousedown="return false;">
             <span class="material-symbols-outlined">
-                volume_up
+                home
             </span>
-        </div>
+        </a>
+    </div>
+    <div class="sound" id="info-audio">
+        <span class="material-symbols-outlined">
+            volume_up
+        </span>
     </div>
     <script src="finish.js"></script>
 </body>

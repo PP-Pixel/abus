@@ -31,19 +31,31 @@
 </head>
 
 <body>
-    <h1 onselectstart="return false;" onmousedown="return false;">もんだい</h1>
-    <p id="question" onselectstart="return false;" onmousedown="return false;">せいかい&nbsp;は...?</p>
-    <div class="kaitou">
-        <input type="text" id="answer"><a>&nbsp;</a>
-        <button id="submit">かいとう</button><br>
-    </div>
-    <img src="2.png" alt="問題2(仮&nbsp;答え:2)" onselectstart="return false;" onmousedown="return false;" />
-    <div class="top">
-        <a href="https://pp-pixel.github.io/abus/" onselectstart="return false;" onmousedown="return false;"/>
+    <div class="body" id="b-audio">
+        <h1 onselectstart="return false;" onmousedown="return false;">もんだい</h1>
+        <p id="question" style="font-size: 130%;" onselectstart="return false;" onmousedown="return false;">
+            せいかい&nbsp;は...?
+        </p>
+        <div class="kaitou">
+            <input type="text" id="answer"><a>&nbsp;</a>
+            <button id="submit">かいとう</button><br>
+        </div>
+        <div id="container">
+            <img id="image1" src="1mage.png">
+            <img id="image2" src="2mage.png">
+        </div>
+        <div class="sound" id="info-audio">
+            <span class="material-symbols-outlined">
+                volume_up
+            </span>
+        </div>
+        <div class="top">
+            <a href="https://pp-pixel.github.io/abus/" onselectstart="return false;" onmousedown="return false;" />
             <span class="material-symbols-outlined">
                 home
             </span>
-        </a>
+            </a>
+        </div>
     </div>
     <script src="2.js"></script>
 </body>
