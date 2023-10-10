@@ -1,5 +1,5 @@
 // 移動先のページの URL を取得する
-const url = "https://pp-pixel.github.io/joho1-bunka/3/2/";
+const url = "https://pp-pixel.github.io/abus/3/2/";
 
 // 10秒後に移動するイベントを割り当てる
 setTimeout(() => {

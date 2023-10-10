@@ -10,10 +10,10 @@ function checkAnswer() {
 
   if (answer === correctAnswer) {
     // 正解の場合
-    window.location.href = "https://pp-pixel.github.io/joho1-bunka/finish/s/";
+    window.location.href = "https://pp-pixel.github.io/abus/finish/s/";
   } else {
     // 不正解の場合
-    window.location.href = "https://pp-pixel.github.io/joho1-bunka/finish/a/";
+    window.location.href = "https://pp-pixel.github.io/abus/finish/a/";
   }
 }
 
