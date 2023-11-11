@@ -1,7 +1,7 @@
 // 移動先のページの URL を取得する
 const url = "https://pp-pixel.github.io/abus/1/";
 
-// 10秒後に移動するイベントを割り当てる
+// 35秒後に移動するイベントを割り当てる
 setTimeout(() => {
   window.location.href = url;
 }, 35000);
