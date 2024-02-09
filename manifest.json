@@ -8,6 +8,7 @@
     "background_color"  : "#ffffff",
     "theme_color"       : "#ffffff",
     "orientation"       : "landscape",
+    "display_override": ["window-controls-overlay"]
     "icons": [{
         "src"           : "https://pp-pixel.github.io/abus/favicon/joho1-192.png",
         "sizes"         : "192x192",
